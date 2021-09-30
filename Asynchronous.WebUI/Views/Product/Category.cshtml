@@ -1,0 +1,85 @@
+﻿@using PagedList
+@using PagedList.Mvc
+@model IPagedList<Asynchronous.Entity.Concrete.Product>
+
+@{
+    ViewBag.Title = "Category";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>@ViewBag.Title</h2>
+
+<p>
+    <a href="~/Product/Create" class="btn btn-primary btn-xs">+ Add A New Product</a>
+</p>
+<div class="container">
+    <div class="row">
+        <table class="table table-hover">
+            <tr>
+                <th>
+                    Product Name
+                </th>
+                <th>
+                    Product Price
+                </th>
+                <th>
+                    Stock
+                </th>
+                <th>
+                    Category Name
+                </th>
+                <th>
+                    Approve Status
+                </th>
+                <th>
+                    Created At
+                </th>
+                <th></th>
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @item.Name
+                    </td>
+                    <td>
+                        @item.Price.ToString()
+                    </td>
+                    <td>
+                        @item.Stock.ToString()
+                    </td>
+                    <td>
+                        @if (item.IsApproved == true)
+                        {
+                            <a href="~/Product/DeActive/@item.Id" class="btn btn-warning btn-xs">Set Cancel</a>
+                        }
+                        else
+                        {
+                            <a href="~/Product/Active/@item.Id" class="btn btn-warning btn-xs">Share</a>
+                        }
+                    </td>
+                    <td>
+                        @item.CreatedDate.ToShortDateString()
+                    </td>
+                    <td>
+                        <a href="~/Product/Category/@item.CategoryId" target="_blank" class="btn btn-link">@item.Category.Name</a>
+                    </td>
+                    <td>
+                        <a href="~/Product/Edit/@item.Id" class="btn btn-success btn-xs">Edit</a> |
+                        <a href="~/Product/Delete/@item.Id" class="btn btn-danger btn-xs">Delete</a>
+                    </td>
+                </tr>
+            }
+        </table>
+    </div>
+    <div class="pagination">
+        <div class="pagination-info">
+            @Html.PagedListPager(Model, Page => Url.Action("Category", new { Page }), PagedListRenderOptions.ClassicPlusFirstAndLast)
+        </div>
+    </div>
+</div>
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>

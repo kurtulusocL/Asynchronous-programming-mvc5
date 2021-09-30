@@ -1,0 +1,16 @@
+C:\Users\kurtulusocL\Desktop\Asynchronous\Asynchronous.Core\bin\Debug\Asynchronous.Core.dll.config
+C:\Users\kurtulusocL\Desktop\Asynchronous\Asynchronous.Core\bin\Debug\Asynchronous.Core.dll
+C:\Users\kurtulusocL\Desktop\Asynchronous\Asynchronous.Core\bin\Debug\Asynchronous.Core.pdb
+C:\Users\kurtulusocL\Desktop\Asynchronous\Asynchronous.Core\bin\Debug\EntityFramework.dll
+C:\Users\kurtulusocL\Desktop\Asynchronous\Asynchronous.Core\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\kurtulusocL\Desktop\Asynchronous\Asynchronous.Core\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\kurtulusocL\Desktop\Asynchronous\Asynchronous.Core\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\kurtulusocL\Desktop\Asynchronous\Asynchronous.Core\bin\Debug\EntityFramework.xml
+C:\Users\kurtulusocL\Desktop\Asynchronous\Asynchronous.Core\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\kurtulusocL\Desktop\Asynchronous\Asynchronous.Core\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\kurtulusocL\Desktop\Asynchronous\Asynchronous.Core\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\kurtulusocL\Desktop\Asynchronous\Asynchronous.Core\obj\Debug\Asynchronous.Core.csproj.AssemblyReference.cache
+C:\Users\kurtulusocL\Desktop\Asynchronous\Asynchronous.Core\obj\Debug\Asynchronous.Core.csproj.CoreCompileInputs.cache
+C:\Users\kurtulusocL\Desktop\Asynchronous\Asynchronous.Core\obj\Debug\Asynchronous.Core.csproj.CopyComplete
+C:\Users\kurtulusocL\Desktop\Asynchronous\Asynchronous.Core\obj\Debug\Asynchronous.Core.dll
+C:\Users\kurtulusocL\Desktop\Asynchronous\Asynchronous.Core\obj\Debug\Asynchronous.Core.pdb
